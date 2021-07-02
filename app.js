@@ -1,19 +1,11 @@
-if (confirm("IS that ur first time here!")) {
-  txt = "You pressed OK!";
-} else {
-  txt = "You pressed Cancel!";
-}
-var person = prompt("Please enter your name", "Your name");
-var text;
-if (person == null || person == "") {
-  text = "User cancelled the prompt.";
-} else {
-  text = "Hello " + person + "! How are you today?";
+alert ("welcome to my web page")
+var input = prompt ("do you like animes ?");
+console.log (input) ; 
+document.write ("ok lets begin" )
+while(input != "yes")
+(input = prompt("please answer with yes"))
+var numof = prompt ("how many pics would you like to see ?" )
 
-}
-
-if (person != null || person != "")
-{
-alert("Hellow  how are you today!" + person);
-
-}
+for(var i=0; i< numof ; i++)
+document.write ("<img src=https://th.bing.com/th/id/R.1a339fd46b9cde77f8658fa5570648cf?rik=kA%2bQefcpMI7Jow&pid=ImgRaw>"
+)
